@@ -1,2 +1,2 @@
 # cheers
-A Community BUilding Website model
+A Community Building Website model

@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Ranga&family=Saira+Stencil+One&display=swap');
+
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #D1A60B;
+    background-image: linear-gradient(#D1A60B,#ffffff);
+    font-size: 1.2rem;
+    min-height: 100vh;
+    color: #232939;
+    font-family: Saira Stencil One, sans-serif;
+}
+
+.full-height-grow{
+    display: flex;
+    flex-direction: column;
+}
+
+.brand-logo{
+    display: flex;
+    align-items: center;
+    font-size: 1.25em;
+    color: inherit;
+    text-decoration: none;
+}
+
+.brand-logo-name{
+    margin-left: 1rem;
+    
+}
+
+.main-nav ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.main-nav a{
+    color: inherit;
+    text-decoration: none;
+    padding: 1rem;
+}
+
+.main-nav a:hover{
+    color: #ffffff;
+}
+
+.main-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 140px;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+.title{
+    font-weight: 500;
+    font-size: 3em;
+    margin-bottom: 1rem;
+    margin-top: 0;
+    color: #581212;
+}
+
+.subtitle{
+    font-weight: 500;
+    font-size: 2em;
+    margin-bottom: 2rem;
+    font-family: Ranga, sans-serif;
+}
+
+.btn{
+    color: #ffffff;
+    background-color: #232939;
+    padding: .7rem 1.5rem;
+    border-radius: .5rem;
+    text-decoration: none;
+    font-size: 1.2em;
+}

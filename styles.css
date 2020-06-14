@@ -9,7 +9,8 @@ body{
     margin: 0;
     background-color: #D1A60B;
     background-image: linear-gradient(#D1A60B,#ffffff);
-    background-image: no-repeat;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     font-size: 1.2rem;
     min-height: 100vh;
     color: #232939;

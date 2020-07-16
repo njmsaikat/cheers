@@ -2,6 +2,7 @@
 ### A Community Building Website model
 
 > Sample Landing Page 
+
 ![](images/Home.png)
 
 ## Using tools
